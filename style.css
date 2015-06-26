@@ -1,0 +1,143 @@
+html, body, nav, div, section, ul, li, p, footer, form, button, input{
+  margin: 0;
+  padding: 0;
+}
+html {
+  min-width: 900px;
+  min-height: 460px;
+  height:100%;
+}
+body {
+  font-family: Verdana, sans-serif;
+  height:100%;
+}
+.fr{
+  float: right;
+}
+.fl{
+  float: left;
+}
+nav, footer{
+  float:left;
+  width: 100%;
+}
+ul{
+  padding:10px;
+}
+li{
+  display: inline-block;
+  text-decoration: none;
+  font-size: .8em;
+}
+img {
+  height: 35px;
+}
+a {
+  text-decoration: none;
+  display:block;
+  color:black;
+}
+#content {
+  clear:both;
+}
+#logo img{
+  width: 256px;
+  height: 150px;
+}
+#logo{
+  width: 256px;
+  margin: 0 auto;
+}
+#search-form{
+  width: 500px;
+  margin:0 auto;
+}
+#search-bar{
+  width: 500px;
+  border: lightgray 1px solid;
+  height:30px;
+}
+#search{
+  float: left;
+  width: 443px;
+  height:20px;
+  margin: 5px 0;
+  border:none;
+}
+ #search-bar button{
+   width: 25px;
+   height: 30px;
+   border: none;
+   background-color: white;
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;   
+ }
+#keyb{
+  background-image: url(imgs/keyb.png);  
+}
+#voice{
+  background-image: url(imgs/voice.png);
+}
+#und-but{
+  width:250px;
+  margin:15px auto 0 auto;
+}
+#und-but button{
+  background-color: #fff3f3;
+  -webkit-appearance: none;
+  padding: 7px 5px;
+  border: lightgray 1px solid;
+  border-radius: 2px;
+  display: inline;
+  font-size: .7em;
+  font-weight:bold;
+  margin: 0 5px;
+}
+#submit{
+  /*float:left;*/
+  width: 110px;
+  
+}
+#lucky{
+ /* float:right;*/
+  width: 100px;
+}
+nav{
+  margin-bottom: 100px;
+}
+nav li{
+  float:left;
+  padding: 0 10px;
+  height:17px;
+  margin:9px 0;
+  color: grey;
+  
+}
+.s-icon{
+  height: 25px;
+}
+#li-account{
+  height: 35px;
+  margin:0;
+}
+.li-s-icon{
+  height: 25px;
+  margin:5px 0;
+}
+#not-footer{
+  min-height:100%;
+}
+footer{
+  clear:both;
+  height:40px;
+  margin-top:-41px;
+  background-color: #fff3f3;
+  border-top: lightgray 1px solid; 
+}
+footer li a{
+  padding: 0 15px;
+}
+a:hover, a:focus{
+  text-decoration:underline;
+}
