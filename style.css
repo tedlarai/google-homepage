@@ -95,12 +95,9 @@ a {
   margin: 0 5px;
 }
 #submit{
-  /*float:left;*/
-  width: 110px;
-  
+  width: 110px;  
 }
 #lucky{
- /* float:right;*/
   width: 100px;
 }
 nav{
@@ -140,4 +137,10 @@ footer li a{
 }
 a:hover, a:focus{
   text-decoration:underline;
+}
+#und-but button:focus{
+  border: black 1px solid;
+}
+#und-but button:hover{
+  border: gray 1px solid;
 }
